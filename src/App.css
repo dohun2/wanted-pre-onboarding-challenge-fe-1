@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Auth */
+.Auth {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.AuthForm {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.AuthToggle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.AuthToggle div {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* TodoList */
+.TodoList {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.TodoList-Btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.TodoList-nav {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.TodoList-logout {
+  margin-right: 30px;
+  width: 10%;
+}
+
+.TodoList-inputBox input,
+textarea {
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+/* TodoItemList */
+.TodoItemList {
+  border: 1px solid black;
+  border-top: none;
+  cursor: pointer;
 }
